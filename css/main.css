@@ -217,7 +217,7 @@ a:focus {
   }
 }
 .hero-area {
-  background: url(../img/ik_stem_cover.jpg) no-repeat;
+  background: url(../img/cover.png) no-repeat;
   background-size: cover;
   background-position: center bottom;
   color: #fff;
