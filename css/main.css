@@ -214,12 +214,12 @@ a:focus {
 
 @media(min-width: 768px) {
 	.hero-area {
-  background: url(../img/cover.png) no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-  color: #fff;
-  overflow: hidden;
-  padding: 90px 0;
+	  background: url(../img/cover.png) no-repeat;
+	  background-size: cover;
+	  background-position: center bottom;
+	  color: #fff;
+	  overflow: hidden;
+	  padding: 90px 0;
 	}
 }
 
@@ -229,12 +229,12 @@ a:focus {
     position: fixed;
   }
   .hero-area {
-  background: url(../img/cover_mobile.png) no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-  color: #fff;
-  overflow: hidden;
-  padding: 90px 0;
+	  background: url(../img/cover_mobile.png) no-repeat;
+	  background-size: cover;
+	  background-position: center bottom;
+	  color: #fff;
+	  overflow: hidden;
+	  padding: 90px 0;
 	}
 }
 
@@ -262,17 +262,17 @@ a:focus {
     font-size: 50px !important;
   }
 }
-#features {
+#stemmen{
   background: #fff;
 }
-#features .features {
+#stemmen .features {
   margin: 30px 0;
 }
-#features .features .icon {
+#stemmen .features .icon {
   float: left;
   text-align: center;
 }
-#features .features .icon i {
+#stemmen .features .icon i {
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -280,44 +280,44 @@ a:focus {
   font-size: 36px;
   color: #6a1b9a;
 }
-#features .features h4 {
+#stemmen .features h4 {
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 700;
   color: #6a1b9a;
 }
-#features .features .features-text {
+#stemmen .features .features-text {
   padding-left: 80px;
 }
-#features .features .features-text p {
+#stemmen .features .features-text p {
   margin: 0;
 }
-#why {
+#slides {
   background: #ecf0f1;
   background-size: cover;
   color: #666;
 }
-#why .content h2 {
+#slides .content h2 {
   font-size: 50px;
   line-height: 70px;
   margin-top: 0;
   font-weight: 100;
 }
-#why .content .list-item li {
+#slides .content .list-item li {
   color: #666;
   line-height: 50px;
   font-size: 18px;
   text-transform: uppercase;
 }
-#why .content .list-item li i {
+#slides .content .list-item li i {
   font-size: 32px;
   padding-right: 5px;
   vertical-align: middle;
 }
-#why img {
+#slides img {
   float: right;
 }
-#why .feature-item {
+#slides .feature-item {
   padding: 48px 0;
 }
 #cta {
