@@ -211,19 +211,34 @@ a:focus {
 .menu-icon i:hover {
   color: #fff;
 }
-@media (max-width: 768px) {
-  body.toggled {
-    position: fixed;
-  }
-}
-.hero-area {
+
+@media(min-width: 768px) {
+	.hero-area {
   background: url(../img/cover.png) no-repeat;
   background-size: cover;
   background-position: center bottom;
   color: #fff;
   overflow: hidden;
   padding: 90px 0;
+	}
 }
+
+
+@media (max-width: 768px) {
+  body.toggled {
+    position: fixed;
+  }
+  .hero-area {
+  background: url(../img/cover_mobile.png) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  color: #fff;
+  overflow: hidden;
+  padding: 90px 0;
+	}
+}
+
+
 .hero-area .sticky-navigation {
   background: transparent;
 }
