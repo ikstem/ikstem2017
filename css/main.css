@@ -644,3 +644,8 @@ a:focus {
 .social .fa-linkedin:hover {
   background: #007BB6;
 }
+
+ol {
+    list-style-position:inside;
+    padding-left:0;
+}​
